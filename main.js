@@ -20,7 +20,7 @@ firstMulipl = 1;
 document.write("<pre>String of numbers from 10 to 20<\/pre>");
 while(stringOfNumber < 20){
     stringOfNumber+=1; 
-    document.write(`${String(stringOfNumber)},`); 
+    document.write(`${(stringOfNumber)},`); 
 }
 
 document.write("<pre>Squares of numbers from 10 to 20<\/pre>");
@@ -28,7 +28,7 @@ while (squareCounteer < 20){
     squareCounteer++;
     square=squareCounteer;
     square = square*square;
-    document.write(`${String(square)},`); 
+    document.write(`${(square)},`); 
 }
 
 document.write("<pre>Multiplication table for 7 <\/pre>");
@@ -73,7 +73,7 @@ document.write(sumOfPariedNum);
 document.write("<pre>This is a string of numbers can be diveded on 3 from 100 to 200<\/pre>");
 while (divideByThree <= 200) {
   if (divideByThree % 3 === 0) {
-    document.write(`${String(divideByThree)},`); 
+    document.write(`${(divideByThree)},`); 
   }
   divideByThree++;
 }
@@ -81,7 +81,7 @@ while (divideByThree <= 200) {
 document.write("<pre>This is operations with the natural numer (20) <\/pre>");
 while (naturalCounter <= naturalNumber) {
     if (naturalNumber % naturalCounter === 0) {
-        document.write(`${String(naturalCounter)},`); 
+        document.write(`${(naturalCounter)},`); 
         if (naturalCounter % 2 === 0) { 
             divCounter++;
             divSum += naturalCounter;
@@ -90,7 +90,7 @@ while (naturalCounter <= naturalNumber) {
 
     naturalCounter++;
   }
-  document.write(` <br> ${String(divCounter)}, <br> ${String(divSum)} <br>`);
+  document.write(` <br> ${(divCounter)}, <br> ${(divSum)} <br>`);
 
 document.write("<pre>This is just multiplication table <\/pre>");
 while (firstMulipl <= 10) {
