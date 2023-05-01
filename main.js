@@ -2,7 +2,7 @@
 stringOfNumber = 9;
 document.write("<pre>String of numbers from 10 to 20<\/pre>");
 while(stringOfNumber < 20){
-    stringOfNumber+=1; 
+    stringOfNumber += 1; 
     document.write(`${(stringOfNumber)},`); 
 }
 
@@ -11,7 +11,7 @@ squareCounteer = 9;
 document.write("<pre>Squares of numbers from 10 to 20<\/pre>");
 while (squareCounteer < 20){
     squareCounteer++;
-    square=squareCounteer;
+    square = squareCounteer;
     square = square*square;
     document.write(`${(square)},`); 
 }
@@ -21,7 +21,7 @@ multiplicationCounter = 0;
 document.write("<pre>Multiplication table for 7 <\/pre>");
 while (multiplicationCounter < 10){
     multiplicationCounter++;
-    multOnSeven=multiplicationCounter;
+    multOnSeven = multiplicationCounter;
     multOnSeven = multOnSeven*7;
     document.write(`<pre> 7 * ${multiplicationCounter} = ${multOnSeven}, <\/pre>`); 
 }
@@ -64,7 +64,7 @@ pariedCounter = 30;
 document.write("<pre>This is sum of all paried numbers from 30 to 80 <\/pre>");
 while (pariedCounter <= 80) {
   if (pariedCounter % 2 === 0) {
-    sumOfPariedNum +=  pariedCounter;
+    sumOfPariedNum += pariedCounter;
   }
   pariedCounter++;
 }
